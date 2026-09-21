@@ -1,0 +1,33 @@
+server:
+  port: 9300
+
+spring:
+  application:
+    name: cloud-file
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 
+    database: 15
+
+file:
+  domain: http://127.0.0.1:9300
+  path: D:/cloud/uploadPath
+  prefix: /statics
+
+fdfs:
+  domain: http://8.129.231.12
+  soTimeout: 3000
+  connectTimeout: 2000
+  trackerList: 8.129.231.12:22122
+
+minio:
+  url: http://127.0.0.1:9000
+  accessKey: ofZgx8NJbWeanOAqoH9B
+  secretKey: ZraG4AfVbTPwXWclAQfox0yP6fXh5msrfQ7G9EJO
+  bucketName: cloud
+
+swagger:
+  title: 文件模块接口文档
+  license: Powered By cloud
+  licenseUrl: https://cloud.vip

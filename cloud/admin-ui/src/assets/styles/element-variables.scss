@@ -1,0 +1,92 @@
+$--color-primary: #dc2626;
+$--color-success: #16a34a;
+$--color-warning: #ca8a04;
+$--color-danger: #dc2626;
+$--color-info: #2563eb;
+
+$--color-text-primary: #1f2937;
+$--color-text-regular: #4b5563;
+$--color-text-secondary: #6b7280;
+$--color-text-placeholder: #9ca3af;
+$--color-text-disabled: #d1d5db;
+
+$--color-border: #fca5a5;
+$--color-border-light: #fecaca;
+$--color-border-lighter: #fee2e2;
+
+$--color-bg-page: #fef2f2;
+$--color-bg: #ffffff;
+$--color-bg-hover: #fce7e7;
+$--color-bg-active: #fecaca;
+$--color-bg-card: #ffffff;
+$--color-bg-overlay: rgba(254, 242, 242, 0.9);
+
+$--button-font-weight: 500;
+$--button-border-radius: 8px;
+
+$--table-border-color: #fee2e2;
+$--table-row-hover-bg-color: #fce7e7;
+
+$--input-border-radius: 8px;
+$--input-bg-color: #ffffff;
+$--input-border-color: #fca5a5;
+$--input-focus-border-color: #dc2626;
+
+$--select-border-radius: 8px;
+$--select-bg-color: #ffffff;
+$--select-border-color: #fca5a5;
+
+$--radio-border-color: #fca5a5;
+$--radio-dot-color: #dc2626;
+
+$--checkbox-border-color: #fca5a5;
+$--checkbox-check-color: #dc2626;
+
+$--switch-on-color: #dc2626;
+$--switch-off-color: #d1d5db;
+$--switch-bg-color: #fee2e2;
+
+$--slider-bg-color: #fee2e2;
+$--slider-button-color: #dc2626;
+$--slider-button-hover-color: #ef4444;
+
+$--progress-bar-color: #dc2626;
+$--progress-bg-color: #fee2e2;
+
+$--badge-font-size: 12px;
+$--badge-border-radius: 10px;
+
+$--tag-border-radius: 6px;
+$--tag-font-size: 12px;
+
+$--dialog-bg-color: #ffffff;
+$--dialog-header-bg-color: #fef2f2;
+$--dialog-border-color: #fca5a5;
+
+$--popover-bg-color: #ffffff;
+$--popover-border-color: #fca5a5;
+
+$--dropdown-menu-bg-color: #ffffff;
+$--dropdown-menu-item-hover-bg-color: #fce7e7;
+
+$--tabs-header-bg-color: #fef2f2;
+$--tabs-active-color: #dc2626;
+$--tabs-border-color: #fca5a5;
+
+$--menu-item-bg-color-hover: #fce7e7;
+$--menu-item-active-bg-color: rgba(220, 38, 38, 0.1);
+$--menu-item-active-color: #dc2626;
+
+$--tooltip-bg-color: #1f2937;
+$--tooltip-border-color: #374151;
+
+$--tree-node-hover-bg-color: #fce7e7;
+$--tree-node-active-bg-color: rgba(220, 38, 38, 0.1);
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+:export {
+  theme: $--color-primary;
+}

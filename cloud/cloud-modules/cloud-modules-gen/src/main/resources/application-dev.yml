@@ -1,0 +1,31 @@
+server:
+  port: 9205
+
+spring:
+  application:
+    name: cloud-gen
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 15
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shop_cloud?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: 12345678
+
+mybatis:
+  typeAliasesPackage: com.cloud.gen.domain
+  mapperLocations: classpath:mapper/**/*.xml
+
+gen:
+  author: cloud
+  packageName: com.cloud.system
+  autoRemovePre: true
+  tablePrefix: sys_
+
+swagger:
+  title: 代码生成模块接口文档
+  license: Powered By cloud
+  licenseUrl: https://cloud.vip
